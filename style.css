@@ -19,7 +19,7 @@
     align-items: center;
 }
 .logo{
-    width: 60px;
+    width: 160px;
     cursor: pointer;
 }
 .menu-icon{
@@ -48,4 +48,60 @@ nav ul li a{
 }
 .col{
     flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 17px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(./img/simone-hutsch-eXBqaHUt994-unsplash.jpg);
+}
+.card2{
+    background-image: url(./img/simone-hutsch-B8B40qft8ZI-unsplash.jpg);
+}
+.card3{
+    background-image: url(./img/3717943cca34bc84c558eff1876dd2c4.jpg);
+}
+.card4{
+    background-image: url(./img/pedro-lastra-Nyvq2juw4_o-unsplash.jpg);
+}
+.card:hover{
+    transform: translateY(-10px) ;
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 12px;
 }
